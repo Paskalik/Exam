@@ -5,6 +5,113 @@ main {
 	margin-top: 4em;
 	margin-bottom: 4em;
 }
-li img,.nav-item img {
+.nav-item img {
 	width: 20px;
+}
+li img {
+	width: 30px;
+}
+.carousel-item img {
+	height: 14em;
+}
+.myControl {
+	display: none;
+	justify-content: space-between;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+	width: 30px;
+	height: 30px;
+}
+.carousel:hover .myControl {
+	display: flex;
+}
+.myText {
+	top: 0;
+	width: 300px;
+	height: 235px;
+	display: none;
+	background: black;
+    opacity: 0.5;
+}
+.img1:hover .myText {
+	display: block;
+}
+.img2:hover .myText {
+	display: block;
+}
+.img3:hover .myText {
+	display: block;
+}
+.img4:hover .myText {
+	display: block;
+}
+footer img:hover {
+	background-color: #e6e6e6;
+}
+textarea {
+	height: 8em;
+}
+@media all and (min-width: 850px) {
+    .feature div:nth-child(2) {
+    	border-bottom: 1px solid gray;
+    	border-right: 1px solid gray;
+    }
+    .feature div:nth-child(3) {
+    	border-bottom: 1px solid gray;
+    	border-right: 1px solid gray;
+    }
+    .feature div:nth-child(4) {
+    	border-bottom: 1px solid gray;
+    }
+    .feature div:nth-child(5) {
+    	border-right: 1px solid gray;
+    }
+    .feature div:nth-child(6) {
+    	border-right: 1px solid gray;
+    }
+}
+@media all and (min-width: 600px) and (max-width: 850px) {
+	.nav2 {
+		display: none;
+	}
+    .feature div:nth-child(2) {
+    	border-bottom: 1px solid gray;
+    	border-right: 1px solid gray;
+    }
+    .feature div:nth-child(3) {
+    	border-bottom: 1px solid gray;
+    }
+    .feature div:nth-child(4) {
+    	border-bottom: 1px solid gray;
+    	border-right: 1px solid gray;
+    }
+    .feature div:nth-child(5) {
+    	border-bottom: 1px solid gray;
+    }
+    .feature div:nth-child(6) {
+    	border-right: 1px solid gray;
+    }
+}
+@media all and (max-width: 600px) {
+	.nav2 {
+		display: none;
+	}
+    .feature div:nth-child(2) {
+    	border-bottom: 1px solid gray;
+    }
+    .feature div:nth-child(3) {
+    	border-bottom: 1px solid gray;
+    }
+    .feature div:nth-child(4) {
+    	border-bottom: 1px solid gray;
+    }
+    .feature div:nth-child(5) {
+    	border-bottom: 1px solid gray;
+    }
+    .feature div:nth-child(6) {
+    	border-bottom: 1px solid gray;
+    }
+    .feature div:nth-child(7) {
+    	border-bottom: 1px solid gray;
+    }
 }
